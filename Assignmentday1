@@ -1,0 +1,11 @@
+#build addition,subtraction,multiplication and divide for calculator
+a=float(input("enter first number"))
+b=float(input("enter second number"))
+sum=a+b
+sub=a-b
+mul=a*b
+div=a/b
+print("our sum is",sum)
+print("our sub is",sub)
+print("our mul is",mul)
+print("our div is",div)
