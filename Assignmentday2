@@ -1,0 +1,7 @@
+#get random names of the people in the list using for loop,maximum participant variable and input() function and then get your lottery run
+import random
+participants=["AKHILA","BHAVYA","CHAITU","DIVYA","ELLEN","FARAZ","GAYATHRI","HARIKA","ILLY","JOHN"]
+max_participants=int(input("enter how manynames we want:"))
+for i in range(max_participants):
+  random_name=random.choice(participants)
+  print(random_name)
